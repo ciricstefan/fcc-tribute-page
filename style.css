@@ -4,11 +4,25 @@ body {
   background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Muli', sans-serif;
   font-weight: 800;
+  text-align: center;
 }
 
-#title {
-  text-align: center;
-  padding-top: 2%;
+h3 {
+  text-decoration: underline;
+  text-decoration-color: antiquewhite;
+}
+
+li {
+  margin-top: 2%;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+a {
+  color: #0818c9;
+}
+
+#tribute-info {
+  margin-bottom: 2%;
 }
 
 .jumbotron {
@@ -16,15 +30,6 @@ body {
   background-color: transparent;
 }
 
-#tribute-info {
-  text-align: center;
-}
-
-li {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-h3 {
-  text-decoration: underline;
+#image {
+  display: block;
 }
